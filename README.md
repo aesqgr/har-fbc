@@ -8,7 +8,7 @@ HAR-Tastic is Human Activity Recognition (HAR) model that can detect what activi
 
 It has been developed as final project for the Machine Learnign and Big Data Bootcamp @ [CORE School](https://www.corecode.school/).
 
-### Access the Project [here]("https://share.streamlit.io/aesqgr/har-fbc/main/dashboard.py")
+### Access the Project [here](https://share.streamlit.io/aesqgr/har-fbc/main/dashboard.py)
 
 ## About the project
 
