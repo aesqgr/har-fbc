@@ -13,9 +13,8 @@ import tensorflow as tf
 from sklearn.model_selection import train_test_split
 
 
-converter = tf.lite.TFLiteConverter.from_saved_model('src/modelico')
-tflite_model = converter.convert()
-model = load_model('src/model.h5')
+
+model = load_model('src/model_fld/model.h5')
 
 
 #build dataframe
@@ -29,7 +28,7 @@ df = df_har[df_har['timestamp'] != 0]
 df = df.sort_values(by = ['user', 'timestamp'], ignore_index=True)
 
 #misc
-history = pd.read_csv('./src/history_test.csv', header = [0])
+history = pd.read_csv('./src/model_fld/history_test.csv', header = [0])
 
 
 def app():

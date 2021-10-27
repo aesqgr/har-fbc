@@ -4,7 +4,9 @@ from src.dashboard_pages import home, model_dash,exploit
 
 app = MultiApp()
 
-st.title("Core - Mid bootcamp project")
+cols = st.beta_columns(3)
+with cols[1]:
+    st.title('HAR-Tastic')
 
 app.add_app("Home", home.app)
 app.add_app("Data & Model overview", model_dash.app)
