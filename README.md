@@ -1,5 +1,5 @@
 <p align="center">
-<img src="src/dasboard_pages/imgs/logo.png" alt="Runtawful" width="150"/>
+<img src="src/dashboard_pages/imgs/logo.png" alt="HAR-Tastic" width="150"/>
 </p>
 
 # HAR-TASTIC
